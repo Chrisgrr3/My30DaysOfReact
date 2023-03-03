@@ -32,10 +32,20 @@
 
             // JSX element
             const jsxElement = <h1>I am a JSX element </h1>
+            const header = (
+                <header>
+                    <h1>Welcome to 30 Days of React</h1>
+                    <h2>Getting Started with React</h2>
+                    <h3>JavaScript Library</h3>
+                    <p>Christopher Guerrero</p>
+                    <small>Mar 3, 2023</small>
+                </header>
+            )
 
             // We render the JSX element using the ReactDOM package
             // ReactDOM has the render method and the render method takes two arguments
             ReactDOM.render(jsxElement, rootElement)
+            ReactDOM.render(header, rootElement)
         </script>
     </body>
 </html>
