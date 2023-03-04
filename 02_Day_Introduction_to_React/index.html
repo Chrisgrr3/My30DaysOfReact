@@ -58,11 +58,18 @@
                     <p>Modeled after Asabeneh's tutorial</p>
                 </footer>
             )
-
+            
+            const app = (
+                <div>
+                    {header}
+                    {main}
+                    {footer}
+                </div>
+            )
             // We render the JSX element using the ReactDOM package
             // ReactDOM has the render method and the render method takes two arguments
             // ReactDOM.render(jsxElement, rootElement)
-            ReactDOM.render(header, rootElement)
+            ReactDOM.render(app, rootElement)
         </script>
     </body>
 </html>
