@@ -10,7 +10,9 @@ let text =
 
 text = text.replace(/,/g, '')
 text = text.replace(/\./g, '')
-console.log(text)
+text = text.split(' ')
+let count = text.length
+console.log(count)
 
 
 // 3. In the following shopping cart add, remove, edit items
