@@ -32,6 +32,7 @@ console.log(average)
 const range = max - min;
 console.log(range)
 
+console.log([parseFloat(Math.abs(min - average).toFixed(1)), parseFloat(Math.abs(max - average).toFixed(1))])
 
 // 2. Slice the first ten countries from the countries array
 
