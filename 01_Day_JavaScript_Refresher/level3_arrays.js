@@ -40,6 +40,15 @@ const firstTen = countries.slice(0, 10)
 console.log(firstTen)
 
 // 3. Find the middle country(ies) in the countries array
-
+let middle;
+if(countries.length % 2 == 0) {
+    middle = [countries[countries.length/2], countries[countries.length/2 + 1]]
+    if(middle[0] == middle[1]) {
+        middle = [middle[0]]
+    }
+} else {
+    middle = [countries[Math.floor(countries.length / 2)]]
+}
+console.log(middle)
 
 // 4. Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
