@@ -23,8 +23,11 @@ if(ages.length % 2 == 0) {
 } else {
     median = [ages[Math.floor(ages.length / 2)]]
 }
-
 console.log(median)
+
+let average = ages.reduce((acc, cur) => cur + acc, 0)
+average /= ages.length;
+console.log(average)
 // 2. Slice the first ten countries from the countries array
 
 
