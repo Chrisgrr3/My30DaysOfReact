@@ -34,6 +34,9 @@ if(allergicToHoney) {
     shoppingCart.splice(honey, 1)
 }
 
+const tea = shoppingCart.indexOf('Tea')
+shoppingCart[tea] = 'Green Tea'
+
 console.log(shoppingCart)
 
 // 4. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
