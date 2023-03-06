@@ -1,4 +1,4 @@
-const webTechs = require('./web_techs')
+const { webTechs } = require('./web_techs')
 const { countries } = require('./countries')
 
 // 1. Create a separate countries.js file and store the countries array into this file, create a separate file web_techs.js and store the webTechs array into this file. Access both file in main.js file
@@ -46,7 +46,12 @@ if(countries.includes('Ethiopia')) {
 }
 
 // 5. In the webTechs array check if Sass exists in the array and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
-
+if(webTechs.includes('Sass')) {
+    console.log('Sass is a CSS preprocess')
+} else {
+    webTechs.push('Sass')
+    console.log(webTechs)
+}
 
 // 6. Concatenate the following two variables and store it in a fullStack variable.
 
