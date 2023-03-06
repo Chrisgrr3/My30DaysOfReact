@@ -21,7 +21,11 @@ const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
     // add Sugar at the end of you shopping cart if it has not been already added
     // remove 'Honey' if you are allergic to honey
     // modify Tea to 'Green Tea'
+if(!shoppingCart.includes('Meat')) {
+    shoppingCart.unshift('Meat')
+}
 
+console.log(shoppingCart)
 
 // 4. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
 
