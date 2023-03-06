@@ -1,3 +1,4 @@
+const { countries } = require('./countries')
 // 1. The following is an array of 10 students ages: js const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]  
     // - Sort the array and find the min and max age 
     // - Find the median age(one middle item or two middle items divided by two) 
@@ -35,7 +36,8 @@ console.log(range)
 console.log([parseFloat(Math.abs(min - average).toFixed(1)), parseFloat(Math.abs(max - average).toFixed(1))])
 
 // 2. Slice the first ten countries from the countries array
-
+const firstTen = countries.slice(0, 10)
+console.log(firstTen)
 
 // 3. Find the middle country(ies) in the countries array
 
