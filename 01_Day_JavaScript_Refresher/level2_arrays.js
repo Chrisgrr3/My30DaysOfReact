@@ -58,3 +58,6 @@ if(webTechs.includes('Sass')) {
 const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 const backEnd = ['Node', 'Express', 'MongoDB']
 
+let fullStack = frontEnd + backEnd
+fullStack = fullStack.split(',')
+console.log(fullStack)
