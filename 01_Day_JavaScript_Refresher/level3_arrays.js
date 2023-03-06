@@ -4,8 +4,15 @@
     // - Find the average age(all items divided by number of items) 
     // - Find the range of the ages(max minus min) 
     // - Compare the value of (min - average) and (max - average), use abs() method
-    
+
 const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort((a, b) => {
+    if(a > b) return 1
+    if(a < b) return -1
+})
+const min = ages[0]
+const max = ages[ages.length - 1]
+console.log(min, max)
 
 // 2. Slice the first ten countries from the countries array
 
