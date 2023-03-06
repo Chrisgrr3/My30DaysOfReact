@@ -10,10 +10,21 @@ ages.sort((a, b) => {
     if(a > b) return 1
     if(a < b) return -1
 })
+// console.log(ages)
 const min = ages[0]
 const max = ages[ages.length - 1]
-console.log(min, max)
+console.log([min, max])
+let median;
+if(ages.length % 2 == 0) {
+    median = [ages[ages.length/2], ages[ages.length/2 + 1]]
+    if(median[0] == median[1]) {
+        median = [median[0]]
+    }
+} else {
+    median = [ages[Math.floor(ages.length / 2)]]
+}
 
+console.log(median)
 // 2. Slice the first ten countries from the countries array
 
 
