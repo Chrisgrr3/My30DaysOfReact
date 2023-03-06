@@ -32,22 +32,30 @@
 
 // Exercises: Why React?
 //     1. Why did you chose to use react?
-    
+        // I chose to learn React because it's very popular and there are a lot of hiring managers looking for developers that know React. 
+
 //     2. What measures do you use to know popularity ?
-    
+        // You can use Github forks, stars, and watchers to gauge the popularity of a technology.
+
 //     3. What is more popular, React or Vue ?
+        // React is more popular than Vue.
 
 
 // Exercises: JSX
 //     1. What is an HTML element?
-    
+        // An HTML element is part of the HTML coding language. It is defined by a start tag, attributes, content, and an ending tag.
+
 //     2. How to write a self closing HTML element?
+        // <br/> <img/>
     
 //     3. What is an HTML attribute? Write some of them
-    
+        // An HTML attribute provides additional information about an HTML element. They are defined in the starting tag of an element.
+
 //     4. What is JSX?
-    
+        // JSX stands for JavaScript XML and allows us to write HTML elements with JavaScript code.
+
 //     5. What is babel?
+        // Babel is library that transpiles JSX into pure JavaScript
     
 //     6. What is a transpiler?
 
