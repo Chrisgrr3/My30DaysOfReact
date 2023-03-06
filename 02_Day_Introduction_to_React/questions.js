@@ -1,12 +1,20 @@
 // Exercises: What is React?
 //     1. What is React?
-    
+        // React is a JavaScript library used for creating interactive UIs.
+
 //     2. What is a library?
-    
+        // A library, generally speaking, is a collection of prewritten code snippets that can be used
+        // and reused to perform common JavaScript functions. This is similar to libraries in C++.
+
 //     3. What is a single page application?
-    
+        // A single page application is an application that uses only one HTML file to render all components of a web application.
+        // This allows users to use websites without loading whole new pages from the server at the expense of SEO, more effort
+        // required to maintain state, implementing navigation, and doing meaningful performance monitoring.
+
 //     4. What is a component ?
-    
+        // A component is an independent and reusable bit of code. They serve the same purpose as JavaScript functions, but work in
+        // isolation and return HTML. Each component defines how a part of a web application should be displayed.
+
 //     5. What is the latest version of React?
     
 //     6. What is DOM?
