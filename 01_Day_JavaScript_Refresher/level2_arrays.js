@@ -24,6 +24,9 @@ const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
 if(!shoppingCart.includes('Meat')) {
     shoppingCart.unshift('Meat')
 }
+if(!shoppingCart.includes('Sugar')) {
+    shoppingCart.push('Sugar')
+}
 
 console.log(shoppingCart)
 
