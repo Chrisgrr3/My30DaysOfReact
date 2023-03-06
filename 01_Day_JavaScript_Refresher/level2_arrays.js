@@ -28,6 +28,12 @@ if(!shoppingCart.includes('Sugar')) {
     shoppingCart.push('Sugar')
 }
 
+const allergicToHoney = false;
+if(allergicToHoney) {
+    const honey = shoppingCart.indexOf('Honey')
+    shoppingCart.splice(honey, 1)
+}
+
 console.log(shoppingCart)
 
 // 4. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
