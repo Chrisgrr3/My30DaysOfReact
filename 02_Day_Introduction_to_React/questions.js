@@ -16,12 +16,18 @@
         // isolation and return HTML. Each component defines how a part of a web application should be displayed.
 
 //     5. What is the latest version of React?
-    
+        // The latest version of React is 18.2.0
+
 //     6. What is DOM?
-    
+        // DOM is the Domain Object Model and is a programming interface for web documents. It represents the page so that programs 
+        // can change the document structure, style, and content.
+
 //     7. What is React Virtual DOM?
-    
+        // The React virtual DOM is a programming concept where an ideal, or "virtual", representation of a UI is kept in memory
+        // and is synced with the "real" DOM by a library such as ReactDOM. This is called reconciliation.
+
 //     8. What does a web application or a website(composed of) have?
+        // A web application has HTML elements, CSS styling, some sort of interactivity through JavaScript (typically).
 
 
 // Exercises: Why React?
