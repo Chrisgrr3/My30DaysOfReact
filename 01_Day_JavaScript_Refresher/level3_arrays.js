@@ -50,5 +50,3 @@ if(countries.length % 2 == 0) {
     middle = [countries[Math.floor(countries.length / 2)]]
 }
 console.log(middle)
-
-// 4. Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
