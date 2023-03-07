@@ -20,13 +20,30 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel">
         const rootElement = document.querySelector('.root')
+        const myName = 'Chris'
+
         const fName = (
             <div>
-                <h1>Chris</h1>
+                <h1>{myName}</h1>
             </div>
         )
-        console.log(fName)
-        ReactDOM.render(fName, rootElement)
+        const country = 'Country: United States'
+        const title = 'Title: Student'
+        const gender = 'Gender: Male'
+        const email = 'chris@chris.com'
+        const phoneNumber = 1234567890
+        
+        const description = (
+            <div>
+                <h1>Full name: {myName}topher Guerrero</h1>
+                <p>{country}</p>
+                <p>{title}</p>
+                <p>{gender}</p>
+                <p>{email}</p>
+                <p>{phoneNumber}</p>
+            </div>
+        )
+        ReactDOM.render(description, rootElement)
     </script>
   </body>
 </html>
