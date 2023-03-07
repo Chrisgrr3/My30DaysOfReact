@@ -36,6 +36,10 @@
         const descStyling = {
             backgroundColor: 'orange',
             fontSize: '20px',
+            outline: '5px dotted purple',
+            borderRadius: '15px',
+            fontFamily: 'cursive',
+            textAlign: 'center'
         }
 
         const description = (
@@ -50,7 +54,8 @@
         )
         const footerStyling = {
             color: 'purple',
-            fontSize: '20px'
+            fontSize: '20px',
+            outline: '2px dashed green'
         }
         const footer = (
             <div style={footerStyling}>
@@ -58,7 +63,7 @@
                 <p>Using its footer.</p>
             </div>
         )
-        ReactDOM.render(footer, rootElement)
+        ReactDOM.render(description, rootElement)
     </script>
   </body>
 </html>
