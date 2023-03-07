@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>30 Days Of React Challenge</title>
+    <style>
+        .name {
+            display: inline-block;
+            outline: 2px solid red;
+            border-radius: 12px;
+            width: 600px;
+            margin-bottom: 0px;
+        }
+        .pNumber{
+            padding-bottom: 10px;
+        }
+    </style>
   </head>
 
   <body>
@@ -45,11 +57,11 @@
         const description = (
             <div className='desc-Container' style={descStyling}>
                 <h1 className='name'>Full name: {myName}topher Guerrero</h1>
-                <p>{country}</p>
+                <p style={{marginTop: '10px'}}>{country}</p>
                 <p>{title}</p>
                 <p>{gender}</p>
                 <p>{email}</p>
-                <p>{phoneNumber}</p>
+                <p className='pNumber'>{phoneNumber}</p>
             </div>
         )
         const footerStyling = {
