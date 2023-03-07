@@ -78,6 +78,7 @@
                     <li>{pets.dog2}</li>
                     <li style={{paddingBottom: '10px'}}>{pets.bird}</li>
                 </ul>
+                <Footer />
             </div>
         )
         const footerStyling = {
@@ -85,12 +86,14 @@
             fontSize: '20px',
             outline: '2px dashed green'
         }
-        const footer = (
-            <div style={footerStyling}>
-                <h1>How does a web page kick a soccer ball?</h1>
-                <p>Using its footer.</p>
-            </div>
-        )
+        function Footer() { 
+            return (
+                <div style={footerStyling}>
+                    <h1>How does a web page kick a soccer ball?</h1>
+                    <p>Using its footer.</p>
+                </div>
+            )
+        }
         ReactDOM.render(description, rootElement)
     </script>
   </body>
