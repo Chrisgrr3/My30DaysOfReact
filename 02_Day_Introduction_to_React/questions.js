@@ -58,15 +58,33 @@
         // Babel is library that transpiles JSX into pure JavaScript
     
 //     6. What is a transpiler?
+        // A transpiler is a program that translates a source code from a language to another at the same level of abstraction.
 
 
 // Exercises: JSX Elements
 //     1. What is a JSX element?
-    
+        // A JSX element has a JavaScript and HTML like syntax and is used to create HTML code through JavaScript. 
+
 //     2. Write your name in a JSX element and store it in a name variable
+        // const name = (
+        //     <div>
+        //         <h1>Chris</h1>
+        //     </div>
+        // )
     
 //     3. Write a JSX element which displays your full name, country, title, gender, email, phone number. Use h1 for the name and p for the rest of the information and store it in a user variable
-    
+        // const user = (
+        //     <div>
+        //         <h1>Christopher Guerrero</h1>
+        //         <p>United States</p>
+        //         <p>Student</p>
+        //         <p>Male</p>
+        //         <p>chris@chris.com</p>
+        //         <p>123-456-7890</p>
+        //     </div>
+        // )
+
+
 //     4. Write a footer JSX element
 
 
