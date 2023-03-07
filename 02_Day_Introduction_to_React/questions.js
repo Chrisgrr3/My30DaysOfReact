@@ -1,4 +1,4 @@
-// Exercises: What is React?
+// Exercises 1: What is React?
 //     1. What is React?
         // React is a JavaScript library used for creating interactive UIs.
 
@@ -30,7 +30,7 @@
         // A web application has HTML elements, CSS styling, some sort of interactivity through JavaScript (typically).
 
 
-// Exercises: Why React?
+// Exercises 2: Why React?
 //     1. Why did you chose to use react?
         // I chose to learn React because it's very popular and there are a lot of hiring managers looking for developers that know React. 
 
@@ -41,7 +41,7 @@
         // React is more popular than Vue.
 
 
-// Exercises: JSX
+// Exercises 3: JSX
 //     1. What is an HTML element?
         // An HTML element is part of the HTML coding language. It is defined by a start tag, attributes, content, and an ending tag.
 
@@ -61,7 +61,7 @@
         // A transpiler is a program that translates a source code from a language to another at the same level of abstraction.
 
 
-// Exercises: JSX Elements
+// Exercises 4: JSX Elements
 //     1. What is a JSX element?
         // A JSX element has a JavaScript and HTML like syntax and is used to create HTML code through JavaScript. 
 
@@ -93,7 +93,7 @@
         //     </div>
         // )
 
-// Exercises: Inline Style
+// Exercises 5: Inline Style
 //     1. Create a style object for the main JSX
         const mainStyle = {
             fontSize: '10px'
@@ -104,9 +104,9 @@
 //     3. Add more styles to the JSX elements
 
 
-// Exercises: Internal Styles
+// Exercises 6: Internal Styles
 //     1. Apply different styles to your JSX elements
     
 
-// Exercise: Inject data to JSX
+// Exercise 7: Inject data to JSX
 //     1. Practice how to make JSX element and injecting dynamic data(string, number, boolean, array, object)
