@@ -19,9 +19,14 @@
     ></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel">
-      
-      
-      
+        const rootElement = document.querySelector('.root')
+        const fName = (
+            <div>
+                <h1>Chris</h1>
+            </div>
+        )
+        console.log(fName)
+        ReactDOM.render(fName, rootElement)
     </script>
   </body>
 </html>
