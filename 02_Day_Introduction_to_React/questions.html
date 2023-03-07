@@ -44,7 +44,8 @@
         const gender = 'Gender: Male'
         const email = 'chris@chris.com'
         const phoneNumber = 1234567890
-        
+        const familyMembers = ['Cinthia', 'Dre', 'Sanders', 'Mom', 'Dad']
+        const familyFormatted = familyMembers.map((member) => <li key={member}>{member}</li>)
         const descStyling = {
             backgroundColor: 'orange',
             fontSize: '20px',
@@ -62,6 +63,10 @@
                 <p>{gender}</p>
                 <p>{email}</p>
                 <p className='pNumber'>{phoneNumber}</p>
+                <h2 style={{textAlign: 'left', marginLeft: '10px'}}>Family:</h2>
+                <ul style={{textAlign: 'left', marginLeft: '10px'}}>
+                    {familyFormatted}
+                </ul>
             </div>
         )
         const footerStyling = {
