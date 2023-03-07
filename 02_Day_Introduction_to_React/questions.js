@@ -95,7 +95,10 @@
 
 // Exercises: Inline Style
 //     1. Create a style object for the main JSX
-    
+        const mainStyle = {
+            fontSize: '10px'
+        }
+
 //     2. Create a style object for the footer and app JSX
     
 //     3. Add more styles to the JSX elements
