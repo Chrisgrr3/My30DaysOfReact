@@ -86,7 +86,12 @@
 
 
 //     4. Write a footer JSX element
-
+        // const footer = (
+        //     <div>
+        //         <h1>How does a web page kick a soccer ball?</h1>
+        //         <p>Using its footer.</p>
+        //     </div>
+        // )
 
 // Exercises: Inline Style
 //     1. Create a style object for the main JSX
