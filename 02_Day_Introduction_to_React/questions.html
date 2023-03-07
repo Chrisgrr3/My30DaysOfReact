@@ -48,14 +48,17 @@
                 <p>{phoneNumber}</p>
             </div>
         )
-
+        const footerStyling = {
+            color: 'purple',
+            fontSize: '20px'
+        }
         const footer = (
-            <div>
+            <div style={footerStyling}>
                 <h1>How does a web page kick a soccer ball?</h1>
                 <p>Using its footer.</p>
             </div>
         )
-        ReactDOM.render(description, rootElement)
+        ReactDOM.render(footer, rootElement)
     </script>
   </body>
 </html>
