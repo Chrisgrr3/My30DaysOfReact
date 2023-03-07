@@ -33,9 +33,14 @@
         const email = 'chris@chris.com'
         const phoneNumber = 1234567890
         
+        const descStyling = {
+            backgroundColor: 'orange',
+            fontSize: '20px',
+        }
+
         const description = (
-            <div>
-                <h1>Full name: {myName}topher Guerrero</h1>
+            <div className='desc-Container' style={descStyling}>
+                <h1 className='name'>Full name: {myName}topher Guerrero</h1>
                 <p>{country}</p>
                 <p>{title}</p>
                 <p>{gender}</p>
