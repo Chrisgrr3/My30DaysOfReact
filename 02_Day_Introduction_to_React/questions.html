@@ -54,6 +54,11 @@
             fontFamily: 'cursive',
             textAlign: 'center'
         }
+        const pets = {
+            dog1: 'Daisy',
+            dog2: 'Coco',
+            bird: 'Rocky'
+        }
 
         const description = (
             <div className='desc-Container' style={descStyling}>
@@ -66,6 +71,12 @@
                 <h2 style={{textAlign: 'left', marginLeft: '10px'}}>Family:</h2>
                 <ul style={{textAlign: 'left', marginLeft: '10px'}}>
                     {familyFormatted}
+                </ul>
+                <h2 style={{ textAlign: 'left', marginLeft: '10px' }}>Pets:</h2>
+                <ul style={{ textAlign: 'left', marginLeft: '10px' }}>
+                    <li>{pets.dog1}</li>
+                    <li>{pets.dog2}</li>
+                    <li style={{paddingBottom: '10px'}}>{pets.bird}</li>
                 </ul>
             </div>
         )
