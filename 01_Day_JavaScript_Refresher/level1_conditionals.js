@@ -68,3 +68,8 @@ function evenOrOdd(num) {
         console.log(`${num} is an odd number.`)
     }
 }
+
+evenOrOdd(9)
+evenOrOdd(8)
+evenOrOdd(0)
+evenOrOdd(11)
