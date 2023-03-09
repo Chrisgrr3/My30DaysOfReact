@@ -33,12 +33,22 @@ function ageDifference() {
 
 
 // 3. If a is greater than b return 'a is greater than b' else 'a is less than b'.Try to implement it in two ways
-    // using if else
-    // ternary operator.
+// using if else
+// ternary operator.
 
-        // let a = 4
-        // let b = 3
-        // 4 is greater than 3
+// let a = 4
+// let b = 3
+// 4 is greater than 3
+
+const aOrB = (a, b) => {
+    // if (a > b) {
+    //     return 'a is greater than b'
+    // } else if (a < b) {
+    //     return 'a is less than b'
+    // }
+
+
+}
 
 
 // 4. Even numbers are divisible by 2 and the remainder is zero.How do you check, if a number is even or not using JavaScript ?
