@@ -52,6 +52,9 @@ const aOrB = (a, b) => {
         : console.log('a is greater than b')
 }
 aOrB(8, 6)
+aOrB(10, 100)
+aOrB(88, -19)
+aOrB(-100, 100)
 
 // 4. Even numbers are divisible by 2 and the remainder is zero.How do you check, if a number is even or not using JavaScript ?
 
