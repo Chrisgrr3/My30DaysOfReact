@@ -32,6 +32,8 @@ function checkSeason(month) {
     month = month.toLowerCase()
     if (month == 'september' | month == 'october' | month == 'november') {
         console.log('Autumn')
+    } else if (month == 'december' | month == 'january' | month == 'february') {
+        console.log('Winter')
     }
 }
 
