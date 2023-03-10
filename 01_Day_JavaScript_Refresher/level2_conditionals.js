@@ -42,6 +42,10 @@ function checkSeason(month) {
         console.log('You did not enter a valid month.')
     }
 }
+checkSeason('aPril')
+checkSeason("auGuST")
+checkSeason("Septemmberr")
+checkSeason('JULY')
 
 
 // 3. Check if a day is weekend day or a working day. Your script will take day as an input.
