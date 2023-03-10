@@ -16,6 +16,8 @@ function grade(num) {
         console.log('D')
     } else if (num <= 59 && num >= 0) {
         console.log('F')
+    } else {
+        console.log('You did not enter a valid grade.')
     }
 }
 
