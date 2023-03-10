@@ -62,3 +62,7 @@ function isWorkDay(day) {
 }
 
 isWorkDay('monDay')
+isWorkDay('eisdv')
+isWorkDay('192')
+isWorkDay('SaTuRDAy')
+isWorkDay('tursday')
