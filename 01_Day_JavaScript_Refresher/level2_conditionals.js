@@ -56,6 +56,8 @@ function isWorkDay(day) {
         console.log('That is a working day.')
     } else if (day == 'saturday' | day == 'sunday') {
         console.log('That is not a working day.')
+    } else {
+        console.log('You did not enter a valid day.')
     }
 }
 
