@@ -34,6 +34,8 @@ function checkSeason(month) {
         console.log('Autumn')
     } else if (month == 'december' | month == 'january' | month == 'february') {
         console.log('Winter')
+    } else if (month == 'march' | month == 'april' | month == 'may') {
+        console.log('Spring')
     }
 }
 
