@@ -21,11 +21,16 @@ function grade(num) {
     }
 }
 
+
 // 2. Check if the season is Autumn, Winter, Spring or Summer.If the user input is:
-    // September, October or November, the season is Autumn.
-    //     December, January or February, the season is Winter.
-    //         March, April or May, the season is Spring
-    // June, July or August, the season is Summer
+// September, October or November, the season is Autumn.
+//     December, January or February, the season is Winter.
+//         March, April or May, the season is Spring
+// June, July or August, the season is Summer
+
+function checkSeason(month) {
+
+}
 
 
 // 3. Check if a day is weekend day or a working day. Your script will take day as an input.
