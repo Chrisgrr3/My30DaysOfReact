@@ -6,7 +6,9 @@
 // 0 - 49, F
 
 function grade(num) {
-
+    if (num <= 100 && num >= 80) {
+        console.log('A')
+    }
 }
 
 // 2. Check if the season is Autumn, Winter, Spring or Summer.If the user input is:
