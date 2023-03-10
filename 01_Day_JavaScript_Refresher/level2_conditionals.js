@@ -6,8 +6,10 @@
 // 0 - 49, F
 
 function grade(num) {
-    if (num <= 100 && num >= 80) {
+    if (num <= 100 && num >= 90) {
         console.log('A')
+    } else if (num <= 89 && num >= 80) {
+        console.log('B')
     }
 }
 
