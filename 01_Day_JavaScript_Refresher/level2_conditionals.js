@@ -29,7 +29,10 @@ function grade(num) {
 // June, July or August, the season is Summer
 
 function checkSeason(month) {
-
+    month = month.toLowerCase()
+    if (month == 'september' | month == 'october' | month == 'november') {
+        console.log('Autumn')
+    }
 }
 
 
