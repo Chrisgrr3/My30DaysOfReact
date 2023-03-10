@@ -14,6 +14,8 @@ function grade(num) {
         console.log('C')
     } else if (num <= 69 && num >= 60) {
         console.log('D')
+    } else if (num <= 59 && num >= 0) {
+        console.log('F')
     }
 }
 
