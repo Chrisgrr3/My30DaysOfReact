@@ -50,3 +50,13 @@ checkSeason('JULY')
 
 // 3. Check if a day is weekend day or a working day. Your script will take day as an input.
 
+function isWorkDay(day) {
+    day = day.toLowerCase()
+    if (day == 'monday' | day == 'tuesday' | day == 'wednesday' | day == 'thursday' | day == 'friday') {
+        console.log('That is a working day.')
+    } else if (day == 'saturday' | day == 'sunday') {
+        console.log('That is not a working day.')
+    }
+}
+
+isWorkDay('monDay')
