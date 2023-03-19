@@ -17,6 +17,10 @@ dog.bark = function () {
 console.log(dog.bark())
 
 // 4. Get name, legs, color, age and bark value from the dog object
-
+const dogName = dog.name
+const dogLegs = dog.legs
+const dogColor = dog.color
+const dogAge = dog.age
+const bark = dog.bark()
 
 // 5. Set new properties the dog object: breed, getDogInfo
