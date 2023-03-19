@@ -1,5 +1,7 @@
 // 1. Create an empty object called dog
+const dog = {
 
+}
 
 // 2. Print the the dog object on the console
 
