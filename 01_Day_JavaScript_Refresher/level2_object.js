@@ -68,7 +68,7 @@ for (let user in users) {
         loggedIn++
     }
 }
-
+console.log(loggedIn)
 // 3. Find people who are MERN stack developer from the users object
 
 
