@@ -26,5 +26,5 @@ const bark = dog.bark()
 // 5. Set new properties the dog object: breed, getDogInfo
 dog.breed = ''
 dog.getDogInfo = function () {
-
+    return { name, legs, color, age }
 }
