@@ -1,8 +1,3 @@
-// 1. Find the person who has many skills in the users object.
-
-
-// 2. Count logged in users, count users having greater than equal to 50 points from the following object.
-
 const users = {
     Alex: {
         email: 'alex@alex.com',
@@ -54,6 +49,11 @@ const users = {
         points: 40
     }
 }
+
+// 1. Find the person who has many skills in the users object.
+
+
+// 2. Count logged in users, count users having greater than equal to 50 points from the following object.
 
 
 // 3. Find people who are MERN stack developer from the users object
