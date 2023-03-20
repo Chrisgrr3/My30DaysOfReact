@@ -51,7 +51,15 @@ const users = {
 }
 
 // 1. Find the person who has many skills in the users object.
-
+let mostSkills = users[0]
+let count = users['Alex'].skills.length
+for (let user in users) {
+    if (users[user].skills.length > count) {
+        count = users[user].skills.length
+        mostSkills = user
+    }
+}
+console.log(mostSkills)
 
 // 2. Count logged in users, count users having greater than equal to 50 points from the following object.
 
