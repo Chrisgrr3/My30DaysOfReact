@@ -52,7 +52,7 @@ const users = {
 
 // 1. Find the person who has many skills in the users object.
 let mostSkills = users[0]
-let count = users['Alex'].skills.length
+let count = 0
 for (let user in users) {
     if (users[user].skills.length > count) {
         count = users[user].skills.length
