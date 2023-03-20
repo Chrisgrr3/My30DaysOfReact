@@ -62,7 +62,12 @@ for (let user in users) {
 console.log(mostSkills)
 
 // 2. Count logged in users, count users having greater than equal to 50 points from the following object.
-
+let loggedIn = 0
+for (let user in users) {
+    if (users[user].isLoggedIn) {
+        loggedIn++
+    }
+}
 
 // 3. Find people who are MERN stack developer from the users object
 
