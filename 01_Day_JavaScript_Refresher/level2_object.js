@@ -69,6 +69,14 @@ for (let user in users) {
     }
 }
 console.log(loggedIn)
+
+count = 0;
+for (let user in users) {
+    if (users[user].points >= 50) {
+        count++
+    }
+}
+
 // 3. Find people who are MERN stack developer from the users object
 
 
