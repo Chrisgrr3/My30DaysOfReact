@@ -76,6 +76,7 @@ for (let user in users) {
         count++
     }
 }
+console.log(count)
 
 // 3. Find people who are MERN stack developer from the users object
 
