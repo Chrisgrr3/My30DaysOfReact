@@ -112,6 +112,7 @@ const KEYS = Object.keys(users)
 console.log(KEYS)
 
 // 6. Get all the values of users object
+const VALUES = Object.values(users)
 
 
 // 7. Use the countries object to print a country name, capital, populations and languages.
