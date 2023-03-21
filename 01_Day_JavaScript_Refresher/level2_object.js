@@ -89,10 +89,11 @@ function mernDevs() {
             && users[user].skills.includes('React')
             && users[user].skills.includes('Node')
         ) {
-
+            devs.push(users[user])
         }
     }
 }
+
 
 // 4. Set your name in the users object without modifying the original users object
 
