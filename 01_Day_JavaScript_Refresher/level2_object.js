@@ -80,6 +80,7 @@ console.log(count)
 let test = []
 
 // 3. Find people who are MERN stack developer from the users object
+let devs = []
 function mernDevs() {
     for (let user in users) {
         if (
