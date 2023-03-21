@@ -79,7 +79,9 @@ for (let user in users) {
 console.log(count)
 
 // 3. Find people who are MERN stack developer from the users object
+function mernDevs() {
 
+}
 
 // 4. Set your name in the users object without modifying the original users object
 
