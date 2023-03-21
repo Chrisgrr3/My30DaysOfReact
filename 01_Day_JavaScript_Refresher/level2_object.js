@@ -107,9 +107,9 @@ withMe['Chris'] = {
 }
 console.log(withMe)
 
-
 // 5. Get all keys or properties of users object
-
+const KEYS = Object.keys(users)
+console.log(KEYS)
 
 // 6. Get all the values of users object
 
