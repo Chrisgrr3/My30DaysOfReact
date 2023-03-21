@@ -98,7 +98,15 @@ console.log(devs)
 
 // 4. Set your name in the users object without modifying the original users object
 const withMe = Object.assign({}, users)
-
+withMe.push({
+    Chris: {
+        email: 'Chris@chris.com',
+        skills: ['HTML', 'JS', 'React'],
+        age: 24,
+        isLoggedIn: true,
+        points: 60
+    }
+})
 
 // 5. Get all keys or properties of users object
 
