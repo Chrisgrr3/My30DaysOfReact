@@ -77,10 +77,20 @@ for (let user in users) {
     }
 }
 console.log(count)
+let test = []
 
 // 3. Find people who are MERN stack developer from the users object
 function mernDevs() {
+    for (let user in users) {
+        if (
+            users[user].skills.includes('MongoDB')
+            && users[user].skills.includes('Express')
+            && users[user].skills.includes('React')
+            && users[user].skills.includes('Node')
+        ) {
 
+        }
+    }
 }
 
 // 4. Set your name in the users object without modifying the original users object
