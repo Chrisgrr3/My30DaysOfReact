@@ -105,7 +105,7 @@ withMe['Chris'] = {
     isLoggedIn: true,
     points: 60
 }
-
+console.log(withMe)
 
 
 // 5. Get all keys or properties of users object
