@@ -2,6 +2,7 @@
 function fullName(firstName, lastName) {
     return `${firstName} ${lastName}`
 }
+console.log(fullName('Christopher', 'Guerrero'))
 
 // 2. Declare a function addNumbers and it takes two two parameters and it returns sum.
 
