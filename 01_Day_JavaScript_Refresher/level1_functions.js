@@ -1,6 +1,6 @@
 // 1. Declare a function fullName and it takes firstName, lastName as a parameter and it returns your full - name.
 function fullName(firstName, lastName) {
-
+    return `${firstName} ${lastName}`
 }
 
 // 2. Declare a function addNumbers and it takes two two parameters and it returns sum.
