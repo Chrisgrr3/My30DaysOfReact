@@ -5,7 +5,9 @@ function fullName(firstName, lastName) {
 console.log(fullName('Christopher', 'Guerrero'))
 
 // 2. Declare a function addNumbers and it takes two two parameters and it returns sum.
+function addNumbers(x, y) {
 
+}
 
 // 3. Area of a circle is calculated as follows: area = π x r x r.Write a function which calculates _areaOfCircle
 
