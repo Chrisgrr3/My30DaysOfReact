@@ -14,8 +14,8 @@ console.log(addNumbers(7, 8))
 console.log(addNumbers(-1, -6))
 
 // 3. Area of a circle is calculated as follows: area = π x r x r.Write a function which calculates _areaOfCircle
-function areaOfCircle(radius) {
-
+function areaOfCircle(r) {
+    const area = Math.PI * r * r
 }
 
 // 4. Temperature in oC can be converted to oF using this formula: oF = (oC x 9 / 5) + 32. Write a function which convert oC to oF convertCelciusToFahrenheit.
