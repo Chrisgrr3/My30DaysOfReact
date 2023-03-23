@@ -7,6 +7,8 @@ console.log(fullName('Christopher', 'Guerrero'))
 // 2. Declare a function addNumbers and it takes two two parameters and it returns sum.
 function addNumbers(x, y) {
     let sum = 0
+    sum = x + y
+    return sum
 }
 
 // 3. Area of a circle is calculated as follows: area = π x r x r.Write a function which calculates _areaOfCircle
