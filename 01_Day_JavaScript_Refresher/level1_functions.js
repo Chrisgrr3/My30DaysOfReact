@@ -10,6 +10,7 @@ function addNumbers(x, y) {
     sum = x + y
     return sum
 }
+console.log(addNumbers(7, 8))
 
 // 3. Area of a circle is calculated as follows: area = π x r x r.Write a function which calculates _areaOfCircle
 
