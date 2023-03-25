@@ -54,5 +54,6 @@ function calculateBMI(weight, height) {
         return 'Obese'
     }
 }
+console.log(calculateBMI(55, 1.3))
 
 // 6. Write a function called checkSeason, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
