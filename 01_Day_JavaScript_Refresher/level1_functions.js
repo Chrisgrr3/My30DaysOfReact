@@ -45,13 +45,13 @@ function calculateBMI(weight, height) {
     const bmi = weight / (Math.pow(height, 2))
 
     if (bmi < 18.5) {
-        return 'Underweight'
+        return `BMI: ${bmi}, Underweight`
     } else if (bmi < 24.9) {
-        return 'Normal weight'
+        return `BMI: ${bmi}, Normal weight`
     } else if (bmi < 29.9) {
-        return 'Overweight'
+        return `BMI: ${bmi}, Overweight`
     } else {
-        return 'Obese'
+        return `BMI: ${bmi}, Obese`
     }
 }
 console.log(calculateBMI(55, 1.3))
