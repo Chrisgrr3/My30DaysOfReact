@@ -50,6 +50,8 @@ function calculateBMI(weight, height) {
         return 'Normal weight'
     } else if (bmi < 29.9) {
         return 'Overweight'
+    } else {
+        return 'Obese'
     }
 }
 
