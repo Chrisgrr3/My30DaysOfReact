@@ -43,6 +43,10 @@ console.log(convertCelciusToFahrenheit(100))
 // Obese: BMI is 30 or more
 function calculateBMI(weight, height) {
     const bmi = weight / (Math.pow(height, 2))
+
+    if (bmi < 18.5) {
+        return 'Underweight'
+    }
 }
 
 // 6. Write a function called checkSeason, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
