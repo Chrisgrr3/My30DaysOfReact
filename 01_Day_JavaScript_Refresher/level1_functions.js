@@ -44,6 +44,10 @@ console.log(convertCelciusToFahrenheit(100))
 function calculateBMI(weight, height) {
     const bmi = (weight / (Math.pow(height, 2))).toFixed(2)
 
+    if (weight < 0) {
+        console.log('You did not enter a valid weight.')
+        return
+    }
     if (bmi < 18.5) {
         return `BMI: ${bmi}, Underweight`
     } else if (bmi < 24.9) {
