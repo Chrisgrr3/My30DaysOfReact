@@ -43,7 +43,9 @@ console.log(convertCelciusToFahrenheit(100))
 // Obese: BMI is 30 or more
 function calculateBMI(weight, height) {
     const bmi = (weight / (Math.pow(height, 2))).toFixed(2)
-
+    if (typeof weight != typeof 1.0 | typeof height != typeof 1.0) {
+        return 'You did not input a valid type'
+    }
     if (weight < 0) {
         return 'You did not enter a valid weight.'
     }
