@@ -45,8 +45,7 @@ function calculateBMI(weight, height) {
     const bmi = (weight / (Math.pow(height, 2))).toFixed(2)
 
     if (weight < 0) {
-        console.log('You did not enter a valid weight.')
-        return
+        return 'You did not enter a valid weight.'
     }
     if (bmi < 18.5) {
         return `BMI: ${bmi}, Underweight`
