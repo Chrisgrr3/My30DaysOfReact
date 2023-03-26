@@ -27,6 +27,9 @@ console.log(areaOfCircle(-1))
 
 // 4. Temperature in oC can be converted to oF using this formula: oF = (oC x 9 / 5) + 32. Write a function which convert oC to oF convertCelciusToFahrenheit.
 function convertCelciusToFahrenheit(celsius) {
+    if (typeof celsius != typeof 1.0) {
+        return "You did not input a number."
+    }
     let fahrenheit;
     fahrenheit = (celsius * 9 / 5) + 32
     return fahrenheit
