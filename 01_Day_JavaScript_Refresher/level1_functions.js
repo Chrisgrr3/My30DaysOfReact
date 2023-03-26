@@ -15,6 +15,9 @@ console.log(addNumbers(-1, -6))
 
 // 3. Area of a circle is calculated as follows: area = π x r x r.Write a function which calculates _areaOfCircle
 function areaOfCircle(r) {
+    if (typeof r != typeof 1.0) {
+        return "You must input a number."
+    }
     if (r < 0) {
         return null
     }
