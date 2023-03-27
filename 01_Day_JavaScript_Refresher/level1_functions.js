@@ -6,6 +6,9 @@ console.log(fullName('Christopher', 'Guerrero'))
 
 // 2. Declare a function addNumbers and it takes two two parameters and it returns sum.
 function addNumbers(x, y) {
+    if (typeof x != typeof 1.0 | typeof y != typeof 1.0) {
+        return null
+    }
     let sum = 0
     sum = x + y
     return sum
