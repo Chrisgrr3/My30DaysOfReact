@@ -82,6 +82,6 @@ function checkSeason(month) {
     if (month.toLowerCase() == 'december' | month.toLowerCase() == 'january' | month.toLowerCase() == 'february') {
         return 'Winter'
     } else if (month.toLowerCase() == 'march' | month.toLowerCase() == 'april' | month.toLowerCase() == 'may') {
-
+        return 'Spring'
     }
 }
