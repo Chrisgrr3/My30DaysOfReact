@@ -87,5 +87,8 @@ function checkSeason(month) {
         return 'Summer'
     } else if (month.toLowerCase() == 'september' | month.toLowerCase() == 'december' | month.toLowerCase() == 'december') {
         return 'Autumn'
+    } else {
+        console.log('You did not input a valid month')
+        return null
     }
 }
