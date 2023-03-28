@@ -93,3 +93,5 @@ function checkSeason(month) {
     }
 }
 console.log(checkSeason('mAy'))
+console.log(checkSeason('MARCH'))
+console.log(checkSeason('Septeember'))
