@@ -92,3 +92,4 @@ function checkSeason(month) {
         return null
     }
 }
+console.log(checkSeason('mAy'))
