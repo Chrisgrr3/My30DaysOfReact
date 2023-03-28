@@ -83,5 +83,7 @@ function checkSeason(month) {
         return 'Winter'
     } else if (month.toLowerCase() == 'march' | month.toLowerCase() == 'april' | month.toLowerCase() == 'may') {
         return 'Spring'
+    } else if (month.toLowerCase() == 'june' | month.toLowerCase() == 'july' | month.toLowerCase() == 'august') {
+
     }
 }
