@@ -86,6 +86,6 @@ function checkSeason(month) {
     } else if (month.toLowerCase() == 'june' | month.toLowerCase() == 'july' | month.toLowerCase() == 'august') {
         return 'Summer'
     } else if (month.toLowerCase() == 'september' | month.toLowerCase() == 'december' | month.toLowerCase() == 'december') {
-
+        return 'Autumn'
     }
 }
