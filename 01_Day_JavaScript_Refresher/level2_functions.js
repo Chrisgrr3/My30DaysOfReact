@@ -7,6 +7,7 @@ function printArray(arr) {
         console.log(element)
     }
 }
+printArray([1, 2, 4, 5, 6])
 
 // 3. Write a function name showDateTime which shows time in this format: 08 / 01 / 2020 04: 08 using the Date object.
 
