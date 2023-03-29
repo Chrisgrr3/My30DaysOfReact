@@ -15,6 +15,7 @@ printArray(['hi', 'low', 'bye', 5, 2])
 
 // 4. Declare a function name swapValues.This function swaps value of x to y.
 function swapValues(x, y) {
+    console.log(`x is ${x}. y is ${y}.`)
     let temp = x;
     x = y;
     y = temp;
