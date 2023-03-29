@@ -3,7 +3,9 @@
 
 // 2. Declare a function name printArray.It takes array as a parameter and it prints out each value of the array.
 function printArray(arr) {
-
+    for (let element in arr) {
+        console.log(element)
+    }
 }
 
 // 3. Write a function name showDateTime which shows time in this format: 08 / 01 / 2020 04: 08 using the Date object.
