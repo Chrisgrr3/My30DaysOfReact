@@ -8,6 +8,7 @@ function printArray(arr) {
     }
 }
 printArray([1, 2, 4, 5, 6])
+printArray(['hi', 'low', 'bye', 5, 2])
 
 // 3. Write a function name showDateTime which shows time in this format: 08 / 01 / 2020 04: 08 using the Date object.
 
