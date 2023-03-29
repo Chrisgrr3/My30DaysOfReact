@@ -3,7 +3,7 @@
 
 // 2. Declare a function name printArray.It takes array as a parameter and it prints out each value of the array.
 function printArray(arr) {
-    for (let element in arr) {
+    for (let element of arr) {
         console.log(element)
     }
 }
