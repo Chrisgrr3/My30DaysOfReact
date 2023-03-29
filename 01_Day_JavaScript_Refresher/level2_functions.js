@@ -14,7 +14,9 @@ printArray(['hi', 'low', 'bye', 5, 2])
 
 
 // 4. Declare a function name swapValues.This function swaps value of x to y.
+function swapValues(x, y) {
 
+}
 
 // 5. Declare a function name reverseArray.It takes array as a parameter and it returns the reverse of the array(don't use method).
 
