@@ -20,6 +20,7 @@ function swapValues(x, y) {
     y = temp;
     console.log(`x is now: ${x}. y is now: ${y}.`)
 }
+swapValues(4, 6)
 
 // 5. Declare a function name reverseArray.It takes array as a parameter and it returns the reverse of the array(don't use method).
 
