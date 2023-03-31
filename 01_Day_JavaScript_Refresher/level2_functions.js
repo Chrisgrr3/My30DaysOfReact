@@ -28,7 +28,10 @@ swapValues(4, 6)
 
 // 5. Declare a function name reverseArray.It takes array as a parameter and it returns the reverse of the array(don't use method).
 function reverseArray(arr) {
+    let newArr = []
+    for (let i = arr.length - 1; i >= 0; i--) {
 
+    }
 }
 
 // 6. Declare a function name capitalizeArray.It takes array as a parameter and it returns the - capitalizedarray.
