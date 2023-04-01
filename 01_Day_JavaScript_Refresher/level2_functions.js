@@ -39,9 +39,11 @@ console.log(reverseArray(['hi.', ',', 'name', 'my', 'is', 'chris']))
 
 // 6. Declare a function name capitalizeArray.It takes array as a parameter and it returns the - capitalizedarray.
 function capitalizeArray(arr) {
+    let result = []
     arr.forEach((el) => {
-        let string = el.toLowerCase()
-        console.log(string)
+        let string = el.charAt(0).toUpperCase() + el.slice(1, el.length).toLowerCase()
+        result.push(string)
+        console.log(result)
     })
 }
 capitalizeArray(['HI', 'MY', 'NAME', 'IS', 'CHRIS'])
