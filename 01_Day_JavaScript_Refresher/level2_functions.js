@@ -49,7 +49,9 @@ function capitalizeArray(arr) {
 console.log(capitalizeArray(['HI', 'MY', 'NAME', 'IS', 'CHRIS']))
 
 // 7. Declare a function name addItem.It takes an item parameter and it returns an array after adding the item
+function addItem(item) {
 
+}
 
 // 8. Declare a function name removeItem.It takes an index parameter and it returns an array after removing an ite
 
