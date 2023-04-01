@@ -43,7 +43,6 @@ function capitalizeArray(arr) {
     arr.forEach((el) => {
         let string = el.charAt(0).toUpperCase() + el.slice(1, el.length).toLowerCase()
         result.push(string)
-        console.log(result)
     })
 }
 capitalizeArray(['HI', 'MY', 'NAME', 'IS', 'CHRIS'])
