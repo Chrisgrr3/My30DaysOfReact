@@ -39,8 +39,12 @@ console.log(reverseArray(['hi.', ',', 'name', 'my', 'is', 'chris']))
 
 // 6. Declare a function name capitalizeArray.It takes array as a parameter and it returns the - capitalizedarray.
 function capitalizeArray(arr) {
-
+    arr.forEach((el) => {
+        let string = el.toLowerCase()
+        console.log(string)
+    })
 }
+capitalizeArray(['HI', 'MY', 'NAME', 'IS', 'CHRIS'])
 
 // 7. Declare a function name addItem.It takes an item parameter and it returns an array after adding the item
 
