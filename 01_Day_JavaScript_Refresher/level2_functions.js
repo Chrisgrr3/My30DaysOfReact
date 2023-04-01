@@ -59,8 +59,16 @@ console.log(addItem('Milk'))
 
 // 8. Declare a function name removeItem.It takes an index parameter and it returns an array after removing an ite
 function removeItem(index) {
-
+    let newArr = [];
+    for (let i = 0; i < items.length; i++) {
+        if (i != index) {
+            newArr.push(items[i])
+        }
+    }
+    return newArr;
 }
+
+
 
 // 9. Declare a function name evensAndOdds.It takes a positive integer as parameter and it counts number of evens and odds in the number.
 
