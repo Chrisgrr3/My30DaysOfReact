@@ -57,7 +57,6 @@ function addItem(item) {
 console.log(addItem('Cheese'))
 console.log(addItem('Milk'))
 
-
 // 8. Declare a function name removeItem.It takes an index parameter and it returns an array after removing an ite
 
 
