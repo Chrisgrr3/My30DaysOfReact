@@ -44,8 +44,9 @@ function capitalizeArray(arr) {
         let string = el.charAt(0).toUpperCase() + el.slice(1, el.length).toLowerCase()
         result.push(string)
     })
+    return result
 }
-capitalizeArray(['HI', 'MY', 'NAME', 'IS', 'CHRIS'])
+console.log(capitalizeArray(['HI', 'MY', 'NAME', 'IS', 'CHRIS']))
 
 // 7. Declare a function name addItem.It takes an item parameter and it returns an array after adding the item
 
