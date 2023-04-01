@@ -34,6 +34,7 @@ function reverseArray(arr) {
     }
     return newArr
 }
+console.log(reverseArray([1, 2, 3, 5, 6, 7, 8]))
 
 // 6. Declare a function name capitalizeArray.It takes array as a parameter and it returns the - capitalizedarray.
 
