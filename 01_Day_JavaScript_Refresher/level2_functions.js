@@ -70,7 +70,9 @@ function removeItem(index) {
 console.log(removeItem(1))
 
 // 9. Declare a function name evensAndOdds.It takes a positive integer as parameter and it counts number of evens and odds in the number.
+function evensAndOdds(integer) {
 
+}
 
 // 10. Write a function which takes any number of arguments and return the sum of the arguments
 
