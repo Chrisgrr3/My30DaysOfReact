@@ -75,6 +75,8 @@ function evensAndOdds(integer) {
 }
 
 // 10. Write a function which takes any number of arguments and return the sum of the arguments
+function sumOfArgs(...args) {
 
+}
 
 // 11. Declare a function name userIdGenerator.When this function is called it generates seven character id.The function return the id.
