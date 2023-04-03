@@ -4,7 +4,7 @@ function userIdGeneratedByUser() {
 }
 
 // 2. Write a function generateColors which can generate any number of hexa or rgb colors.
-function generateColors() {
+function generateColors(num) {
 
 }
 
