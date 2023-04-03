@@ -1,5 +1,7 @@
 // 1. Declare a function name userIdGeneratedByUser.It doesn’t take any parameter but it takes two inputs using prompt().One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
+function userIdGeneratedByUser() {
 
+}
 
 // 2. Write a function generateColors which can generate any number of hexa or rgb colors.
 
